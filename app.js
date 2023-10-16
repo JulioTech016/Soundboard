@@ -237,7 +237,7 @@ function makeSound(key) {
       break;   
           
     case "17":
-      var sound42 = new Audio('what.wav');
+      var sound42 = new Audio('what.mp3');
       sound42.play();
       break;   
       
@@ -279,9 +279,103 @@ function makeSound(key) {
         sound49.play();
         break; 
 
+    case "25":
+          var sound50 = new Audio('english.mp3');
+          sound50.play();
+          break; 
 
+    case "26":
+      var sound51 = new Audio('nigan1.mp3');
+      sound51.play();
+      break; 
 
+    case "27":
+      var sound52 = new Audio('nigan2.mp3');
+      sound52.play();
+      break; 
 
+    case "28":
+      var sound53 = new Audio('nigan3.mp3');
+      sound53.play();
+      break; 
+
+    case "29":
+      var sound54 = new Audio('nigan4.mp3');
+      sound54.play();
+      break; 
+
+    case "30":
+      var sound55 = new Audio('nigan5.mp3');
+      sound55.play();
+      break; 
+
+    case "31":
+      var sound56 = new Audio('joe.mp3');
+      sound56.play();
+      break; 
+
+    case "32":
+      var sound57 = new Audio('rick.mp3');
+      sound57.play();
+      break; 
+
+    case "33":
+      var sound58 = new Audio('rick2.mp3');
+      sound58.play();
+      break; 
+
+    case "34":
+      var sound59 = new Audio('steven.mp3');
+      sound59.play();
+      break; 
+
+    case "35":
+      var sound60 = new Audio('holdon.mp3');
+      sound60.play();
+      break; 
+
+    case "36":
+      var sound61 = new Audio('snoog.mp3');
+      sound61.play();
+      break; 
+      
+ 
+    case "37":
+      var sound62 = new Audio('batman.mp3');
+      sound62.play();
+      break; 
+    
+    case "38":
+      var sound63 = new Audio('joe2.mp3');
+      sound63.play();
+      break;
+
+    case "39":
+      var sound64 = new Audio('joe3.mp3');
+      sound64.play();
+      break;
+
+    case "40":
+      var sound65 = new Audio('tony.mp3');
+      sound65.play();
+      break;
+
+    case "41":
+      var sound66 = new Audio('tony2.mp3');
+      sound66.play();
+      break;
+
+    case "42":
+      var sound67 = new Audio('mmg.mp3');
+      sound67.play();
+      break;
+
+    case "43":
+      var sound68 = new Audio('mari.mp3');
+      sound68.play();
+      break;
+
+    
 
 
   	default: console.log(key);
