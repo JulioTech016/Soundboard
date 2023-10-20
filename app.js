@@ -375,7 +375,98 @@ function makeSound(key) {
       sound68.play();
       break;
 
-    
+    case "44":
+      var sound69 = new Audio('walter1.mp3');
+      sound69.play();
+      break;
+
+    case "45":
+      var sound70 = new Audio('walter2.mp3');
+      sound70.play();
+      break;
+
+
+    case "46":
+      var sound71 = new Audio('nigan6.mp3');
+      sound71.play();
+      break;
+
+    case "47":
+      var sound72 = new Audio('tim1.mp3');
+      sound72.play();
+      break;
+
+    case "48":
+      var sound72 = new Audio('tim2.mp3');
+      sound72.play();
+      break;
+
+    case "49":
+      var sound73 = new Audio('tim3.mp3');
+      sound73.play();
+      break;
+
+    case "50":
+      var sound74 = new Audio('nigan7.mp3');
+      sound74.play();
+      break;
+
+    case "51":
+      var sound75 = new Audio('guz1.mp3');
+      sound75.play();
+      break;
+
+    case "52":
+      var sound76 = new Audio('guz2.mp3');
+      sound76.play();
+      break;
+
+    case "53":
+      var sound76 = new Audio('guz3.mp3');
+      sound76.play();
+      break;
+
+    case "54":
+      var sound77 = new Audio('nigan8.mp3');
+      sound77.play();
+      break;
+
+    case "55":
+      var sound78 = new Audio('nigan9.mp3');
+      sound78.play();
+      break;
+
+    case "56":
+      var sound79 = new Audio('home.mp3');
+      sound79.play();
+      break;
+
+    case "57":
+      var sound80 = new Audio('nigan10.mp3');
+      sound80.play();
+      break;
+
+
+    case "58":
+      var sound81 = new Audio('gump.mp3');
+      sound81.play();
+      break;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   	default: console.log(key);
