@@ -1,44 +1,37 @@
 body {
-	display: flex;
 	color: white;
-	justify-content: center;
-	align-content:center;
-	align-items: center;
-	flex-direction: column;
 	height: auto;
 	width: 100%;
 	margin: 0;
 	padding: 0;
-	padding: 15px;
 	height: auto;
+    background-color: #000;
 	}
-
-#myVideo {
-	z-index: -1;
-	position: fixed;
- 	right: 0;
-  	bottom: 0;
-  	min-width: 100%;
-  	min-height: 100%;
-
-}
 
 .container {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 16px;
-	margin-top: 16px;
-	height: 100vh;
+	padding: 0;
+	margin: 0;
+	height: auto;
+    width: 100%;
 }
-
 
 
 
 h1 {
 	font-size: 90px;
-	text-shadow: 2px 2px 10px black;
+	text-shadow: 3px 3px 5px red;
+    font-family: 'Nosifer', sans-serif;
+    color: black;
+   /* background: #fff;
+    background: linear-gradient(to left, #FF0000 0%, #000000 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;*/
+
+    
 }
 
 .btn-box {
@@ -47,13 +40,14 @@ h1 {
 	flex-wrap: wrap;
 	width: 90%;
 	padding: 16px;
+    margin: 0;
 
 }
 
 .btn { 
-	width: 130px;
+	width: 100px;
 	background: white;
-	height: 130px;
+	height: 100px;
 	margin: 20px;
 	color: transparent;
 	border: black solid 1px;
@@ -61,22 +55,24 @@ h1 {
 	justify-content: center;
 	align-items: center;
 	border-radius: 20px;
-	border: white 5px solid
+	border: white 3px solid;
+    transition:all .2s; 
 }
 
  .btn:hover {
  	transform: 20px;
   	font-size: 20px;
- 	box-shadow: 2px 2px 10px 10px red;
+ 	box-shadow: 2px 2px 10px 10px yellow;
  	transition: .3s;
+   /* transform: scale(2);*/
 }
 
 .fondo{
-	background-image: url("fondo.jpg");
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("fondo.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: auto;
 
 }
 
@@ -251,7 +247,7 @@ h1 {
 }
 
 .img28{
-	background-image: url("mark3.jpg");
+	background-image: url("mark1.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -411,10 +407,360 @@ h1 {
 }
 
 .img50{
-	background-image: url(".jpg");
+	background-image: url("eww.jpg");
     background-position: center;
     background-size: cover;
 }
+
+
+.img51{
+	background-image: url("samuel.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.img52{
+	background-image: url("nigan1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.img53{
+	background-image: url("nigan2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.img54{
+	background-image: url("nigan3.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.img55{
+	background-image: url("nigan4.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.img56{
+	background-image: url("nigan5.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.img57{
+	background-image: url("joe1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.img58{
+	background-image: url("rick1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.img59{
+	background-image: url("rick2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.img60{
+	background-image: url("steven.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.img61{
+	background-image: url("holdon.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.img62{
+	background-image: url("snoop.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.img63{
+	background-image: url("batman2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.img64{
+	background-image: url("joe2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.img65{
+	background-image: url("joe3.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.img66{
+	background-image: url("tony1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.img67{
+	background-image: url("tony2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.img68{
+	background-image: url("mmg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.img69{
+	background-image: url("jonah.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.img70{
+    background-image: url("walter1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.img71{
+    background-image: url("walter2.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.img72{
+    background-image: url("nigan6.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.img73{
+    background-image: url("tim1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.img74{
+    background-image: url("tim2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.img75{
+    background-image: url("tim3.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.img76{
+    background-image: url("nigan7.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.img77{
+    background-image: url("gus1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.img78{
+    background-image: url("gus2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.img79{
+    background-image: url("gus3.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.img80{
+    background-image: url("nigan8.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.img81{
+    background-image: url("nigan9.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.img82{
+    background-image: url("home2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.img83{
+    background-image: url("nigan10.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.img84{
+    background-image: url("gump.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.img85{
+    background-image: url("jim1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.img86{
+    background-image: url("jim2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.img87{
+    background-image: url("jim3.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.img88{
+    background-image: url("jim4.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.img89{
+    background-image: url("jim5.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.img90{
+    background-image: url("jim6.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.img91{
+    background-image: url("jim7.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.img92{
+    background-image: url("jim8.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.img93{
+    background-image: url("jim9.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.img94{
+    background-image: url("jim10.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.img95{
+    background-image: url("problem.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.img96{
+    background-image: url("duende1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.img97{
+    background-image: url("duende2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.img98{
+    background-image: url("duende3.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.img99{
+    background-image: url("carell.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.img100{
+    background-image: url("dixon.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.img101{
+    background-image: url("derek1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.img102{
+    background-image: url("derek2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.img103{
+    background-image: url("dumb.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.img104{
+    background-image: url("proud.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.img105{
+    background-image: url("rick3.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
 
 
 
@@ -433,18 +779,13 @@ h1 {
 h1{font-size: 70px; }
 
 .fondo {
-	background: url(fondo.jpg);
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(fondo.jpg);
 	background-repeat: no-repeat; 
 	background-size: cover;
 	background-position: center;
 	
 }
 
-
-/*#myVideo {
-	margin: none;
-}
-*/
 
 
 .btn-box {

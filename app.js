@@ -237,7 +237,7 @@ function makeSound(key) {
       break;   
           
     case "17":
-      var sound42 = new Audio('what.wav');
+      var sound42 = new Audio('what.mp3');
       sound42.play();
       break;   
       
@@ -278,6 +278,300 @@ function makeSound(key) {
         var sound49 = new Audio('eww.mp3');
         sound49.play();
         break; 
+
+    case "25":
+          var sound50 = new Audio('english.mp3');
+          sound50.play();
+          break; 
+
+    case "26":
+      var sound51 = new Audio('nigan1.mp3');
+      sound51.play();
+      break; 
+
+    case "27":
+      var sound52 = new Audio('nigan2.mp3');
+      sound52.play();
+      break; 
+
+    case "28":
+      var sound53 = new Audio('nigan3.mp3');
+      sound53.play();
+      break; 
+
+    case "29":
+      var sound54 = new Audio('nigan4.mp3');
+      sound54.play();
+      break; 
+
+    case "30":
+      var sound55 = new Audio('nigan5.mp3');
+      sound55.play();
+      break; 
+
+    case "31":
+      var sound56 = new Audio('joe.mp3');
+      sound56.play();
+      break; 
+
+    case "32":
+      var sound57 = new Audio('rick.mp3');
+      sound57.play();
+      break; 
+
+    case "33":
+      var sound58 = new Audio('rick2.mp3');
+      sound58.play();
+      break; 
+
+    case "34":
+      var sound59 = new Audio('steven.mp3');
+      sound59.play();
+      break; 
+
+    case "35":
+      var sound60 = new Audio('holdon.mp3');
+      sound60.play();
+      break; 
+
+    case "36":
+      var sound61 = new Audio('snoog.mp3');
+      sound61.play();
+      break; 
+      
+ 
+    case "37":
+      var sound62 = new Audio('batman.mp3');
+      sound62.play();
+      break; 
+    
+    case "38":
+      var sound63 = new Audio('joe2.mp3');
+      sound63.play();
+      break;
+
+    case "39":
+      var sound64 = new Audio('joe3.mp3');
+      sound64.play();
+      break;
+
+    case "40":
+      var sound65 = new Audio('tony.mp3');
+      sound65.play();
+      break;
+
+    case "41":
+      var sound66 = new Audio('tony2.mp3');
+      sound66.play();
+      break;
+
+    case "42":
+      var sound67 = new Audio('mmg.mp3');
+      sound67.play();
+      break;
+
+    case "43":
+      var sound68 = new Audio('mari.mp3');
+      sound68.play();
+      break;
+
+    case "44":
+      var sound69 = new Audio('walter1.mp3');
+      sound69.play();
+      break;
+
+    case "45":
+      var sound70 = new Audio('walter2.mp3');
+      sound70.play();
+      break;
+
+
+    case "46":
+      var sound71 = new Audio('nigan6.mp3');
+      sound71.play();
+      break;
+
+    case "47":
+      var sound72 = new Audio('tim1.mp3');
+      sound72.play();
+      break;
+
+    case "48":
+      var sound72 = new Audio('tim2.mp3');
+      sound72.play();
+      break;
+
+    case "49":
+      var sound73 = new Audio('tim3.mp3');
+      sound73.play();
+      break;
+
+    case "50":
+      var sound74 = new Audio('nigan7.mp3');
+      sound74.play();
+      break;
+
+    case "51":
+      var sound75 = new Audio('guz1.mp3');
+      sound75.play();
+      break;
+
+    case "52":
+      var sound76 = new Audio('guz2.mp3');
+      sound76.play();
+      break;
+
+    case "53":
+      var sound76 = new Audio('guz3.mp3');
+      sound76.play();
+      break;
+
+    case "54":
+      var sound77 = new Audio('nigan8.mp3');
+      sound77.play();
+      break;
+
+    case "55":
+      var sound78 = new Audio('nigan9.mp3');
+      sound78.play();
+      break;
+
+    case "56":
+      var sound79 = new Audio('home.mp3');
+      sound79.play();
+      break;
+
+    case "57":
+      var sound80 = new Audio('nigan10.mp3');
+      sound80.play();
+      break;
+
+
+    case "58":
+      var sound81 = new Audio('gump.mp3');
+      sound81.play();
+      break;
+
+    case "59":
+      var sound82 = new Audio('jim1.mp3');
+      sound82.play();
+      break;
+
+    case "60":
+      var sound83 = new Audio('jim2.mp3');
+      sound83.play();
+      break;
+
+    case "61":
+      var sound84 = new Audio('jim3.mp3');
+      sound84.play();
+      break;
+
+    case "62":
+      var sound85 = new Audio('jim4.mp3');
+      sound85.play();
+      break;
+
+
+    case "63":
+      var sound86 = new Audio('jim5.mp3');
+      sound86.play();
+      break;
+
+
+      case "64":
+      var sound87 = new Audio('jim6.mp3');
+      sound87.play();
+      break;
+
+    case "65":
+      var sound88 = new Audio('jim7.mp3');
+      sound88.play();
+      break;
+
+    case "66":
+      var sound89 = new Audio('jim8.mp3');
+      sound89.play();
+      break;
+
+    case "67":
+      var sound90 = new Audio('jim9.mp3');
+      sound90.play();
+      break;
+
+
+    case "68":
+      var sound91 = new Audio('jim10.mp3');
+      sound91.play();
+      break;
+
+      case "69":
+      var sound91 = new Audio('problem.mp3');
+      sound91.play();
+      break;
+
+    case "70":
+      var sound92 = new Audio('duende1.mp3');
+      sound92.play();
+      break;
+
+    case "71":
+      var sound93 = new Audio('duende2.mp3');
+      sound93.play();
+      break;
+
+    case "72":
+      var sound94 = new Audio('duende3.mp3');
+      sound94.play();
+      break;
+
+
+    case "73":
+      var sound95 = new Audio('carell.mp3');
+      sound95.play();
+      break;
+
+      case "74":
+      var sound96 = new Audio('dixon.mp3');
+      sound96.play();
+      break;
+
+    case "75":
+      var sound97 = new Audio('derek1.mp3');
+      sound97.play();
+      break;
+
+    case "76":
+      var sound98 = new Audio('derek2.mp3');
+      sound98.play();
+      break;
+
+    case "77":
+      var sound99 = new Audio('dumb.mp3');
+      sound99.play();
+      break;
+
+
+    case "78":
+      var sound100 = new Audio('proud.mp3');
+      sound100.play();
+      break;
+
+    case "79":
+      var sound101 = new Audio('rick3.mp3');
+      sound101.play();
+      break;
+
+
+
+
+
+
+
+
+
+
+
 
 
 
