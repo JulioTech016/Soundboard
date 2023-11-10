@@ -34,7 +34,7 @@ h1 {
     
 }
 
-.btn-box {
+.btn-container {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
@@ -43,6 +43,15 @@ h1 {
     margin: 0;
 
 }
+
+.btn-box {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+
+}
+p {text-align: center;}
 
 .btn { 
 	width: 100px;
